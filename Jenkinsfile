@@ -24,7 +24,7 @@ pipeline{
          stage('Release') {
             steps {
                 sh '''
-                  oc project moyuqh-greetings
+                  oc project ixnpym-greetings
                   oc start-build greeting-console --follow --wait
                 '''
             }
