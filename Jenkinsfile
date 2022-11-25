@@ -24,7 +24,7 @@ pipeline{
          stage('Release') {
             steps {
                 sh '''
-                  oc project libnrr-greetings
+                  oc project tiapbp-greetings
                   oc start-build greeting-console --follow --wait
                 '''
             }
